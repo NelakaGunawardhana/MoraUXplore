@@ -1,0 +1,39 @@
+@import './../fonts.css';
+.CountdownTimerContainer{
+    display:flex!important;;
+    flex-direction: column!important;;
+    max-width: 495px;
+}
+.tagsContainer{
+    display: flex!important;;
+    flex-direction: row!important;;
+    flex-wrap: wrap!important;;
+    justify-content: space-around!important;;
+    
+  
+}
+.timer{
+    align-content: center!important;;
+    justify-content: center!important;;
+    
+   
+}
+.timerText{
+
+font-family: 'Poppins'!important;
+font-style: normal!important;
+font-weight: 400!important;
+
+line-height: 108px!important;
+color: #4D4C59!important;
+
+}
+
+.tagText{
+font-family: 'Poppins'!important;
+font-style: normal!important;
+font-weight: 300!important;
+font-size: 14px!important;
+line-height: 21px!important;
+color: #C8C8C8!important;
+}
