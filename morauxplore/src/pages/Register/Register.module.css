@@ -1,0 +1,21 @@
+.mainContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
