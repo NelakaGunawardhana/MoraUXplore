@@ -14,8 +14,8 @@ import {
   InputLabel,
 } from "@mui/material";
 import Logo from "../../images/Logo.png";
-import RegisterPhoto from "../../images/Register.png";
-import styles from "./Register.module.css";
+import RegisterPhoto from "../../images/SignUp.png";
+import styles from "./Login.module.css";
 import InputBase from "@mui/material/InputBase";
 const BootstrapInput = styled(InputBase)(({ theme }) => ({
   "label + &": {
@@ -61,7 +61,7 @@ const BootstrapInput = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function Register() {
+export default function Login() {
   return (
     <div className={styles.main}>
       <Card
@@ -115,7 +115,7 @@ export default function Register() {
               color: "#0A2647",
             }}
           >
-            Register
+            Sign In
           </Typography>
           <Typography
             sx={{
@@ -128,23 +128,23 @@ export default function Register() {
               color: "#0A2647A6",
             }}
           >
-            Let’s get Started !
+            Let’s get Continue !
           </Typography>
-          <FormControl variant="standard" sx={{py:1,my:1}}>
-            <InputLabel sx={{fontFamily:'Mulish',fontStyle:'normal',fontWeight:'700',fontSize:'15px',lineHeight:'19px',letterSpacing:'0.3px',color:'#0A2266'}} shrink >
-              TEAM NAME
-            </InputLabel>
-            <BootstrapInput
-              defaultValue="TEAM NAME"
-             
-            />
-          </FormControl >
           <FormControl variant="standard" sx={{py:1,my:1}}>
             <InputLabel sx={{fontFamily:'Mulish',fontStyle:'normal',fontWeight:'700',fontSize:'15px',lineHeight:'19px',letterSpacing:'0.3px',color:'#0A2266'}} shrink >
               EMAIL
             </InputLabel>
             <BootstrapInput
               defaultValue="EMAIL"
+             
+            />
+          </FormControl >
+          <FormControl variant="standard" sx={{py:1,my:1}}>
+            <InputLabel sx={{fontFamily:'Mulish',fontStyle:'normal',fontWeight:'700',fontSize:'15px',lineHeight:'19px',letterSpacing:'0.3px',color:'#0A2266'}} shrink >
+              PASSWORD
+            </InputLabel>
+            <BootstrapInput
+              defaultValue="PASSWORD"
               
             />
           </FormControl>
@@ -158,8 +158,8 @@ export default function Register() {
             }}
             className="buttonContainer"
           >
-            <Button style={{marginRight:'10px'}} variant="contained">REGISTER</Button>
-            <Button variant="contained">SIGN UP</Button>
+            <Button style={{marginRight:'10px'}} variant="contained">SIGN IN</Button>
+            <Button variant="contained">REGISTER</Button>
           </Container>
         </Container>
       </Card>
